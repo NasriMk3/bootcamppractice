@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
+body {
+  background-color:rgb(255, 255, 255);
+    font-family: 'Poppins';
+  }
+
+.firstdiv { 
+    padding: 0 25px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    color: #d10505;
+ }
+
+ nav {
+    width: 600px;
+  }
+
+nav ul {
+    list-style: none;
+    display:flex ;
+    justify-content:space-between;
+    align-items:center;
+  }
+  
+ nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  
+  .blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+  }
+ 
+  .seconddiv{
+    padding: 0 25px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+
+  }
+  .logo{
+    width: 60px;
+    margin-right: 1rem;
+  }
+  .searchimg{
+    width: 20px;
+    margin-right: 1rem;
+  }
+  .sectionone {
+height: 600px;
+width: stretch;
+background-color: rgba(248, 244, 244);
+align-items: center;
+justify-content: center;
+text-align: center;
+
+}
+.sectionone >div{
+
+  justify-content: space-around;
+}
+.sectionone >h1{
+  color: rgb(0, 0, 0);
+  font-size:xx-large;
+}
+.sectionone >p{
+  color: rgb(0, 0, 0);
+
+}
+  #triangleimg{
+    width: 400px;
+    margin-right: 1rem;
+
+  }
+  #btnsseeplans{
+    background-color: #FB3B49 ;
+    box-shadow:8px 8px 0 rgba(251,59,73,.2) ;
+    width: 250px;
+    height: 50px;
+    font-size: large;
+     
+  }
+  #btnsseeplans >a{
+    text-decoration: none;
+    color: white;
+  }
+  #btnjoinforfree {
+
+    background-color: #ffffff ;
+    box-shadow:8px 8px 0 rgba(251,59,73,.2) ;
+    width: 250px;
+    height: 50px;
+    font-size: large;
+  }
+  #btnjoinforfree >a {
+    text-decoration: none;
+    color: #FB3B49;
+  }
+  .sectiontwo{
+    height: 300px;
+width: stretch;
+
+
+align-items: center;
+justify-content: center;
+text-align: center;
+  }
+  .sectionthree{
+  
+    display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: center;
+align-content: center;
+text-align: center;
+
+
+  }
+  .sectionthree >h1 {
+color: #fb020a;
+
+  }
+  .sectionthree >div{
+
+   padding: 10px;
+  }
+  .sectionthree >div >h1 {
+    color: #fb020a;
+  }
+#sectionthreeimg{
+  width: 50px;
+    margin-right: 1rem;
+
+}
+.lastbtn{
+width: stretch;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#btncreatorg{
+  width: 300px;
+  height: 50px;
+  font-size: large;
+  margin: 10px;
+  margin-bottom: 40px;
+  justify-content: center;
+  background-color: #000000 ;
+  box-shadow:  8px 8px 0 rgba(128,83,35,.2);
+  
+}
+#btncreatorg >a {
+  text-decoration: none;
+  color: rgb(236, 236, 236);
+
+}
